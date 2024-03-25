@@ -3,4 +3,5 @@ SRK_Solver_lib/__init__.py
 SRK_Solver_lib.egg-info/PKG-INFO
 SRK_Solver_lib.egg-info/SOURCES.txt
 SRK_Solver_lib.egg-info/dependency_links.txt
+SRK_Solver_lib.egg-info/requires.txt
 SRK_Solver_lib.egg-info/top_level.txt

@@ -3,3 +3,4 @@ Name: SRK-Solver-lib
 Version: 0.1
 Summary: Package Description will be later
 Home-page: https://github.com/AnisimovMike/SRK_Solver_lib
+Requires-Dist: pandas>=2.2.1
