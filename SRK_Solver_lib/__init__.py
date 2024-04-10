@@ -31,7 +31,8 @@ def levy_flights(dt_sav, t, alpha, dt, eta_a, tau_e):
     return df
 
 
-def users_function(file_name, py_par, F, N, n):
+def users_function(file_name, py_par, F, N):
+    n = len(py_par) - 3
     arr_c_par = (c_double * len(py_par))(*py_par)
     print('Начал моделирование')
     result = lib.Solver(file_name.encode('utf-8'), arr_c_par, F.encode('utf-8'),
